@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="weather_box">
+        <div class="system"></div>
+        <div class="search clearfix">
+            <div class="loaction fl">
+                <div class="fl location_text"></div>
+                <div class="fl location_icon"></div>
+            </div>
+            <div class="search_box fl">
+                <input type="text" class="search_ipt fl">
+                <span class="search_icon fl"></span>
+            </div>
+        </div>
+        <div class="wendu">
+            <div class="wendu_big" ><span class="w" id="tmp"></span>℃</div>
+            <div class="wendu_small"><span class="w" id="cond_txt"></span><span id="tmp_range"></span></div>
+        </div>
+        <div class="weather_info">
+            <ul class="clearfix">
+                <li class="fl border_right"><span class="w" id="wind_sc"></span><br><span class="w" id="wind_dir">西南风</span></li>
+                <li class="fl border_right"><span class="w" id="vis"></span><br>可见度</li>
+                <li class="fl"><span class="w" id="hum"></span><br>湿度</li>
+            </ul>
+            <div class="weather_message"></div>
+        </div>
+        <div class="weather_nav">
+            <div class="clearfix">
+                <div class="fl nav_li">逐日预报</div>
+                <div class="fl nav_li">逐时预报</div>
+                <span class="moveSpan"></span>
+            </div>
+        </div>
+        <div class="weather_more">
+            <ul class="clearfix day">
+                <li class="fl"><span class="d"></span><br><span class="co"></span><span class="weather_more_icon"></span><span class="day_tmp"></span></li>
+                <li class="fl"><span class="d"></span><br><span class="co"></span><span class="weather_more_icon"></span><span class="day_tmp"></span></li>
+                <li class="fl"><span class="d"></span><br><span class="co"></span><span class="weather_more_icon"></span><span class="day_tmp"></span></li>
+                <li class="fl"><span class="d"></span><br><span class="co"></span><span class="weather_more_icon"></span><span class="day_tmp"></span></li>
+                <li class="fl"><span class="d"></span><br><span class="co"></span><span class="weather_more_icon"></span><span class="day_tmp"></span></li>
+            </ul>
+            <ul class="clearfix hour">
+                <li class="fl"><span class="h"></span><br><span class="co"></span><span class="weather_more_icon"></span><span class="hour_tmp"></span></li>
+                <li class="fl"><span class="h"></span><br><span class="co"></span><span class="weather_more_icon"></span><span class="hour_tmp"></span></li>
+                <li class="fl"><span class="h"></span><br><span class="co"></span><span class="weather_more_icon"></span><span class="hour_tmp"></span></li>
+                <li class="fl"><span class="h"></span><br><span class="co"></span><span class="weather_more_icon"></span><span class="hour_tmp"></span></li>
+                <li class="fl"><span class="h"></span><br><span class="co"></span><span class="weather_more_icon"></span><span class="hour_tmp"></span></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/rem.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
